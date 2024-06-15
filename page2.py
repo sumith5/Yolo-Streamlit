@@ -36,6 +36,6 @@ def app():
 
         st.video(data=file)
     button= st.sidebar.button("Detect")
-    output_Path = r"C:\Users\searra\OneDrive - Prolifics Corporation Ltd.,\Desktop\Quick_UI\ouput.mp4"
+    output_Path = r"ouput.mp4"
     if button:
         text_detection(temp_file_path,output_Path)
